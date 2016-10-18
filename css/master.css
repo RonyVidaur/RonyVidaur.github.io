@@ -24,6 +24,9 @@
   font-size: 2.7em;
 
 }
+.wrapper{
+/*height: 100vh;*/}
+
 .round-btn{
   display: block;
   border-radius: 50%;
@@ -47,7 +50,7 @@
   text-align: center;
   color:white;
   background-color: #292b2a;
-  height: 100vh;
+  height: 94vh;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -58,6 +61,7 @@
   box-align: center;
   align-items: center;
   align-items: center;
+
 }
 .emphasis{
   color:#28d6b9;
