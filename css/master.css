@@ -1,30 +1,33 @@
+/* refactor still needed*/
 @font-face {
-    font-family: Coves;
-    src: url(../assets/fonts/Coves-light.otf);
+  font-family: Coves;
+  src: url(../assets/fonts/Coves-light.otf);
   }
 
-  @font-face {
-      font-family: CovesB;
-      src: url(../assets/fonts/Coves-bold.otf);
-    }
+@font-face {
+  font-family: CovesB;
+  src: url(../assets/fonts/Coves-bold.otf);
+  }
 
 * {
+  font-family: 'Coves';
   margin: 0;
   padding: 0;
   }
+
 .secondary-background {
   background-color: #28d6b9;
 }
+
 .mini-footer {
   width: 100%;
   height:100px;
 }
+
 .subtitle {
   font-family: 'covesB';
   font-size: 2.7em;
   }
-.wrapper {
-/*height: 100vh;*/}
 
 .round-btn {
   color: black;
@@ -41,33 +44,29 @@
   font-size: 40px;
 }
 
-.linked{
+.linked {
   font-size: 22px;
   text-align: center;
-  font-family: "Coves"
+  }
 
-}
 .secondary-content{
   font-size: 25px;
   text-align: justify;
   margin: 40px;
   text-decoration: none;
-  font-family: 'Coves';
-}
+  }
+
 .content {
   font-size: 30px;
-  font-family: 'Coves';
   margin: 20px;
   text-align: center;
-
-}
+  }
 
 .third-background {
   background: #9b59b6;
-}
+  }
 
 .title {
-  font-family: 'Coves';
   font-size: 80px;
   text-align: center;
 }
@@ -75,7 +74,6 @@
 .title-secondary {
   font-size: 60px;
 }
-
 
 #main {
   padding: 20px;
@@ -93,31 +91,29 @@
   box-align: center;
   align-items: center;
   align-items: center;
-
-}
+  }
 .emphasis {
   color:#28d6b9;
 }
 
 .section {
   margin-top: 0;
-  /*height: 600px;*/
   color:white;
   overflow: hidden;
-
-}
+  }
 
 li{
   margin: 20px;
+  }
 
-}
 .contact {
   margin-top: 160px;
-}
+  }
 
 .holder{
   text-align: center;
-}
+  }
+
 #imac{
   height: auto;
   max-width: 100%;
@@ -134,7 +130,7 @@ li{
   -o-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-}
+  }
 
 .container-menu {
   margin-top: 120px;
@@ -144,10 +140,10 @@ li{
   width: 320px;
   margin-left: -160px;
   background-color: #28d6b9;
-}
+  }
 .container-menu input[type=checkbox] {
   display: none;
-}
+  }
 .container-menu input[type=checkbox] + label {
   cursor: pointer;
   position: absolute;
@@ -166,11 +162,13 @@ li{
   -o-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-}
+  }
+
 .container-menu input[type=checkbox] + label:hover {
   background: -webkit-linear-gradient(-90deg, #28d6b9 0%, #28d6b9 100%);
   box-shadow: 0px 0px 20px 4px #28d6b9, 0px 0px 0px 2px rgba(255, 255, 255, 0.19) inset;
-}
+  }
+
 .container-menu input[type=checkbox] + label:before {
   position: absolute;
   top: 5px;
@@ -185,22 +183,22 @@ li{
   transform: rotate(0deg);
   display: block;
   line-height: 1;
-}
+  }
 .container-menu input[type=checkbox]:checked + label {
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
-}
+  }
 .container-menu input[type=checkbox]:checked + label:hover {
   background: -webkit-linear-gradient(-90deg, #28d6b9 0%, #28d6b9 100%);
   box-shadow: 0px 0px 40px 4px #28d6b9, 0px 0px 0px 2px rgba(255, 255, 255, 0.19) inset;
-}
+  }
 .container-menu input[type=checkbox]:checked + label + .menu {
   width: 320px;
   margin-left: -160px;
   box-shadow: 0px 0px 18px 1px #28d6b9, 0px 0px 0px 2px rgba(255, 255, 255, 0.19) inset;
-}
+  }
 .container-menu input[type=checkbox]:checked + label + .menu .menu-item {
   opacity: 1;
   -moz-animation: item 0.5s forwards ease-in-out;
@@ -210,13 +208,13 @@ li{
   -o-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-}
+  }
 .container-menu input[type=checkbox]:checked + label + .menu .menu-item svg {
   opacity: 0.5;
-}
+  }
 .container-menu input[type=checkbox]:checked + label + .menu .menu-item:hover svg {
   opacity: 1;
-}
+  }
 
 .menu {
   position: absolute;
@@ -236,7 +234,8 @@ li{
   -o-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-}
+  }
+
 .menu .menu-item {
   position: relative;
   display: inline-block;
@@ -249,10 +248,10 @@ li{
   -o-transition: all 0.6s;
   -webkit-transition: all 0.6s;
   transition: all 0.6s;
-}
+  }
 .menu .menu-item svg {
   fill: #fff;
-}
+  }
 
 @-webkit-keyframes item {
   0% {
@@ -263,8 +262,8 @@ li{
   }
   60% {
     opacity: 1;
+    }
   }
-}
 @-moz-keyframes item {
   0% {
     opacity: 0;
@@ -274,8 +273,9 @@ li{
   }
   60% {
     opacity: 1;
+    }
   }
-}
+
 @keyframes item {
   0% {
     opacity: 0;
@@ -285,5 +285,5 @@ li{
   }
   60% {
     opacity: 1;
+    }
   }
-}
