@@ -1,2 +1,1 @@
-# portfolio-material
-new design for my portfolio website
+# portfolio-2017
