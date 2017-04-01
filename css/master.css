@@ -13,34 +13,6 @@
   font-family: TESLA;
   src: url(../assets/fonts/TESLA.ttf);
 }
-/*general styling*/
-.card-holder {
-  /*background: #e2e1e0;*/
-}
-
-.card {
-  background: #fff;
-  border-radius: 2px;
-  display: inline-block;
-  height: 300px;
-  margin: 1rem;
-  position: relative;
-  width: 300px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
-
-
-.card-title {
-  background: #E80C2D;
-  height: 50px;
-  color: white;
-  padding: 15px;
-}
-
-.card:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
 
 .navbar-brand {
   color: white;
@@ -48,7 +20,7 @@
 
 .section {
   max-width: 100%;
-  height: 100vh;
+  /*height: 100vh;*/
   overflow: hidden;
   padding-top: 5%;
   text-align: center;
@@ -235,4 +207,101 @@ a span::before {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* to skillset */
+.panels {
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.panel {
+  filter: sepia(50);
+  background: #6B0F9C;
+  box-shadow: inset 0 0 0 5px rgba(255,255,255,0.1);
+
+  text-align: center;
+  align-items: center;
+  /* Safari transitionend event.propertyName === flex */
+  /* Chrome + FF transitionend event.propertyName === flex-grow */
+  transition:
+    font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+    flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+    background 0.2s;
+  font-size: 20px;
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.panel > * {
+  margin:0;
+  width: 100%;
+  transition:transform 0.5s;
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel > *:first-child {
+  transform: translateY(-100%);
+}
+
+.panel > *:last-child {
+  transform: translateY(100%);
+}
+
+.panel.open-active > *:first-child {
+  transform: translateY(0);
+
+}
+
+.panel.open-active > *:last-child {
+  transform: translateY(0);
+}
+.panel.open-active {
+  filter: sepia(0);
+}
+
+.panel p {
+  font-family: 'Phenomena';
+  text-shadow:0 0 2px rgba(0, 0, 0, 0.72), 0 0 4px rgba(0, 0, 0, 0.45);
+  font-size: 2em;
+}
+
+.panel p:nth-child(2) {
+  font-size: 2em;
+}
+
+.panel.open {
+  font-size:40px;
+  flex: 5;
+}
+
+.panel-front { background-image:url(../assets/images/front.png); }
+
+.panel-back { background-image:url(../assets/images/back.png); }
+
+.panel-db { background-image:url(../assets/images/db.png); }
+
+
+/*test*/
+footer {
+  font-family: 'Phenomena';
+  /*min-height: 50vh;*/
+  background: white;
+  font-size: 25px;
 }

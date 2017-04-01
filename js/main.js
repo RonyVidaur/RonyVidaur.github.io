@@ -1,3 +1,27 @@
+const panels = document.querySelectorAll('.panel')
+console.log(panels)
+function toggleOpen() {
+  console.log('hello')
+  this.classList.toggle('open')
+}
+
+function toggleActive(e) {
+  if (e.propertyName.includes('flex')) {
+    this.classList.toggle('open-active')
+  }
+}
+
+panels.forEach(panel => panel.addEventListener('click', toggleOpen))
+panels.forEach(panel => panel.addEventListener('transitionend', toggleActive))
+
+var title = document.title
+window.addEventListener('blur', function(){
+  document.title = "Hey! come back..."
+})
+window.addEventListener('focus', function(){
+  document.title = title
+})
+
 //     var scaleCurve = mojs.easing.path('M0,100 L25,99.9999983 C26.2328835,75.0708847 19.7847843,0 100,0');
 //     var el = document.querySelector('.main'),
 // 	   elSpan = el.querySelector('span'),
