@@ -302,6 +302,6 @@ a span::before {
 footer {
   font-family: 'Phenomena';
   /*min-height: 50vh;*/
-  background: white;
+  background: #FFF;
   font-size: 25px;
 }
