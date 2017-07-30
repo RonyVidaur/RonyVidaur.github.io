@@ -305,3 +305,15 @@ footer {
   background: #FFF;
   font-size: 25px;
 }
+
+@media screen and (max-width: 736px) {
+  .container {
+    margin-top: 10vh;
+  }
+  .primary-text {
+    font-size: 50px;
+  }
+  #name {
+    font-size: 70px;
+  }
+}
