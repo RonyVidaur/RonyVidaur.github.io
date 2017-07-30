@@ -316,4 +316,10 @@ footer {
   #name {
     font-size: 70px;
   }
+  .paragraph {
+    font-size: 20px;
+  }
+  .bottom {
+    padding: 60px;
+  }
 }
