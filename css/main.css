@@ -1,10 +1,58 @@
-.name {
-  background-color: #ffd700;
-  color: black;
-  text-decoration: underline;
+html {
+  background-image: url(../assets/images/double-bubble-outline.png);
+}
+
+.highlight {
+  box-shadow: none;
+  padding-top: 2px;
+  line-height: 1.5;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-bottom: 0px;
+  background-image: linear-gradient(to right, rgba(255, 191, 0, 0.65) 70%, rgba(255, 191, 0, 0.65) 0px) !important;
+  background-size: 4px 13px !important;
+  background-position: 0px 98%;
+  background-repeat: repeat-x;
+  font-weight: 800;
+}
+
+.social-container {
+  bottom: 0;
+  position: absolute;
+}
+
+.social {
+  margin-left: 5px;
+  margin-right: 20px;
+  font-size: 30px;
+}
+
+.social:hover {
+  cursor: pointer;
+}
+
+.social-container {
+  margin-top: 50px;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.sub-container {
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .container {
+  margin-top: 60px;
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+}
+.section {
   text-align: center;
 }
 
