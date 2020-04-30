@@ -1,5 +1,6 @@
 html {
   background-image: url(../assets/images/double-bubble-outline.png);
+  user-select: none;
 }
 
 .highlight {
@@ -19,6 +20,7 @@ html {
 .social-container {
   bottom: 0;
   position: absolute;
+  left: 20px;
 }
 
 .social {
