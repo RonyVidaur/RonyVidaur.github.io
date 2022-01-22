@@ -96,15 +96,15 @@ a {
       margin: 10px 0;
     }
 
-    .decorator .mobile {
+    .decorator, .mobile {
       display: block;
     }
 
-    .decorator .right {
+    .mobile-right {
       text-align: right;
     }
 
-    .decorator .left {
+    .mobile-left {
       text-align: left;
     }
 }
