@@ -91,4 +91,20 @@ a {
         font-family: "Rubik", sans-serif;
         margin-bottom: 0;
     }
+
+    .decorator {
+      margin: 10px 0;
+    }
+
+    .decorator .mobile {
+      display: block;
+    }
+
+    .decorator .right {
+      text-align: right;
+    }
+
+    .decorator .left {
+      text-align: left;
+    }
 }
