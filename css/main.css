@@ -1,44 +1,50 @@
 html {
-  background-image: url(../assets/images/double-bubble-outline.png);
-  user-select: none;
-}
-
-.highlight {
-  box-shadow: none;
-  padding-top: 2px;
-  line-height: 1.5;
-  padding-left: 1px;
-  padding-right: 1px;
-  padding-bottom: 0px;
-  background-image: linear-gradient(to right, rgba(255, 191, 0, 0.65) 70%, rgba(255, 191, 0, 0.65) 0px) !important;
-  background-size: 4px 13px !important;
-  background-position: 0px 98%;
-  background-repeat: repeat-x;
-  font-weight: 800;
-}
-
-.social-container {
-  bottom: 0;
-  position: absolute;
-  left: 20px;
+  background-color: #232136;
 }
 
 .social {
-  margin-left: 5px;
-  margin-right: 20px;
-  font-size: 30px;
+  margin-left: 15px;
+  margin-right: 60px;
+  font-size: 60px;
+  color: #9ccfd8;
 }
 
 .social:hover {
   cursor: pointer;
+  color: #ffffff;
 }
 
-.social-container {
-  margin-top: 50px;
+.link {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #EA9A97
+}
+
+.link:hover {
+  color: #eb6f92;
+}
+
+.decorator {
+  font-size: 20px;
+  margin: 0 20px;
+  vertical-align: middle;
+  color: #9ccfd8;
 }
 
 .title {
+  font-size: 120px;
+  color: #F6C177;
   margin-bottom: 30px;
+  text-transform: uppercase;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+.subtitle {
+  font-size: 40px;
+  color: #EA9A97;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  font-family: 'Rubik', sans-serif;
 }
 
 .sub-container {
@@ -54,38 +60,12 @@ a {
   color: black;
   text-decoration: underline;
 }
+
 .section {
   text-align: center;
 }
 
-.waving-hand {
-  animation-name: wave-animation;
-  animation-duration: 2.5s;
-  animation-iteration-count: infinite;
-  transform-origin: 70% 70%;
-  display: inline-block;
+.social-section {
+  padding: 0;
 }
 
-@keyframes wave-animation {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(-10deg);
-  }
-  20% {
-    transform: rotate(12deg);
-  }
-  30% {
-    transform: rotate(-10deg);
-  }
-  40% {
-    transform: rotate(9deg);
-  }
-  50% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
