@@ -1,96 +1,94 @@
 html {
-  background-color: #232136;
+    background-color: #232136;
+    user-select: none;
 }
 
 .social {
-  margin-left: 15px;
-  margin-right: 60px;
-  font-size: 60px;
-  color: #9ccfd8;
+    margin-left: 15px;
+    margin-right: 60px;
+    font-size: 60px;
+    color: #9ccfd8;
 }
 
 .social:hover {
-  cursor: pointer;
-  color: #ffffff;
+    cursor: pointer;
+    color: #ffffff;
 }
 
 .link {
-  text-decoration: underline;
-  font-weight: bold;
-  color: #EA9A97
+    text-decoration: underline;
+    font-weight: bold;
+    color: #ea9a97;
 }
 
 .link:hover {
-  color: #eb6f92;
+    color: #eb6f92;
 }
 
 .decorator {
-  font-size: 20px;
-  margin: 0 20px;
-  vertical-align: middle;
-  color: #9ccfd8;
+    font-size: 20px;
+    margin: 0 20px;
+    vertical-align: middle;
+    color: #9ccfd8;
 }
 
 .title {
-  font-size: 120px;
-  color: #F6C177;
-  margin-bottom: 30px;
-  text-transform: uppercase;
-  font-family: 'Rubik Mono One', sans-serif;
+    font-size: 120px;
+    color: #f6c177;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-family: "Rubik Mono One", sans-serif;
 }
 
 .subtitle {
-  font-size: 40px;
-  color: #EA9A97;
-  text-transform: uppercase;
-  margin-bottom: 60px;
-  font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    color: #ea9a97;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    font-family: "Rubik", sans-serif;
 }
 
 .sub-container {
-  margin-bottom: 20px;
-  text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .container {
-  margin-top: 60px;
+    margin-top: 60px;
 }
 
 a {
-  color: black;
-  text-decoration: underline;
+    color: black;
+    text-decoration: underline;
 }
 
 .section {
-  text-align: center;
+    text-align: center;
 }
 
 .social-section {
-  padding: 0;
+    padding: 0;
 }
 
 @media only screen and (max-width: 600px) {
- 
-.social {
-  margin-right: 30px;
-  font-size: 30px;
-}
+    .social {
+        margin-right: 30px;
+        font-size: 30px;
+    }
 
-.decorator {
-  font-size: 10px;
-  margin: 0 10px;
-}
+    .decorator {
+        font-size: 10px;
+        margin: 0 10px;
+    }
 
-.title {
-  font-size: 60px;
-  margin-bottom: 60px !important;
-}
+    .title {
+        font-size: 60px;
+        margin-bottom: 60px !important;
+    }
 
-.subtitle {
-  font-size: 20px;
-  font-family: 'Rubik', sans-serif;
-  margin-bottom: 0;
+    .subtitle {
+        font-size: 20px;
+        font-family: "Rubik", sans-serif;
+        margin-bottom: 0;
+    }
 }
-
-}
-
