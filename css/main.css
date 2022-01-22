@@ -17,7 +17,6 @@ html {
 
 .link {
     text-decoration: underline;
-    font-weight: bold;
     color: #ea9a97;
 }
 
@@ -26,8 +25,8 @@ html {
 }
 
 .decorator {
-    font-size: 20px;
-    margin: 0 20px;
+    font-size: 16px;
+    margin: 0 16px;
     vertical-align: middle;
     color: #9ccfd8;
 }
@@ -41,11 +40,11 @@ html {
 }
 
 .subtitle {
-    font-size: 40px;
+    font-size: 30px;
     color: #ea9a97;
     text-transform: uppercase;
     margin-bottom: 60px;
-    font-family: "Rubik", sans-serif;
+    font-family: "Rubik Mono One", sans-serif;
 }
 
 .sub-container {
@@ -88,7 +87,7 @@ a {
 
     .subtitle {
         font-size: 20px;
-        font-family: "Rubik", sans-serif;
+        font-weight: 100;
         margin-bottom: 0;
     }
 
